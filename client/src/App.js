@@ -8,6 +8,7 @@ import Faq from "./pages/faq/Faq"
 import Profile from "./pages/profile/Profile"
 import Error from "./pages/error/Error"
 import LoadingSpinner from './components/misc/LoadingSpinner/LoadingSpinner'
+import Create from "./pages/create/Create";
 
 
 
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route path="/profile" exact>
               <Profile />
+            </Route>
+            <Route path="/create" exact>
+              <Create />
             </Route>
             <Route path="/faq" exact>
               <Faq />
